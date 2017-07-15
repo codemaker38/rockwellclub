@@ -1,0 +1,122 @@
+Title: Chef Jessie
+
+----
+
+Text: 
+
+----
+
+Banner: 
+
+----
+
+Banner-photo: 
+
+----
+
+Banner-title: 
+
+----
+
+Banner-description: 
+
+----
+
+Banner-btn: 
+
+----
+
+Banner-link: 
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis volutpat tincidunt. Nam tincidunt sapien quis sollicitudin scelerisque. Duis finibus dapibus urna sit amet mollis. Fusce venenatis sed ex non maximus.
+
+----
+
+Details: 
+
+#### Contact Information
+
+Landline: (tel: +6327981793 text: 798-1793)
+Mobile: N/A
+Email: (email: rockwellclub@chefjessie.com text: rockwellclub@chefjessie.com)
+
+----
+
+Popup-btn: MENU
+
+----
+
+Popup-categories: Appetizers,Main Course,Desserts
+
+----
+
+Popup-items: 
+
+- 
+  popup_category: Appetizers
+  popup_title: 'Smoked Salmon & Caviar Pie'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Appetizers
+  popup_title: Trio of Fish Tartar
+  popup_subtitle: Salmon Tuna Lapu Lapu
+- 
+  popup_category: Appetizers
+  popup_title: Trio of Tapenades with Toast
+  popup_subtitle: 'Red Pesto *Broccoli and Capers Aubergine and Anchovies'
+- 
+  popup_category: Appetizers
+  popup_title: 'Cheese Mouse & Lumpfish Caviar'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Appetizers
+  popup_title: Platter of Assorted Canapes (6 pieces)
+  popup_subtitle: >
+    Smoked Salmon, Parma Ham Goats Cheese
+    Mousse
+- 
+  popup_category: Main Course
+  popup_title: 'Smoked Salmon & Caviar Pie'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Main Course
+  popup_title: Trio of Fish Tartar
+  popup_subtitle: Salmon Tuna Lapu Lapu
+- 
+  popup_category: Main Course
+  popup_title: Trio of Tapenades with Toast
+  popup_subtitle: 'Red Pesto *Broccoli and Capers Aubergine and Anchovies'
+- 
+  popup_category: Main Course
+  popup_title: 'Cheese Mouse & Lumpfish Caviar'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Main Course
+  popup_title: Platter of Assorted Canapes (6 pieces)
+  popup_subtitle: >
+    Smoked Salmon, Parma Ham Goats Cheese
+    Mousse
+- 
+  popup_category: Desserts
+  popup_title: 'Smoked Salmon & Caviar Pie'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Desserts
+  popup_title: Trio of Fish Tartar
+  popup_subtitle: Salmon Tuna Lapu Lapu
+- 
+  popup_category: Desserts
+  popup_title: Trio of Tapenades with Toast
+  popup_subtitle: 'Red Pesto *Broccoli and Capers Aubergine and Anchovies'
+- 
+  popup_category: Desserts
+  popup_title: 'Cheese Mouse & Lumpfish Caviar'
+  popup_subtitle: With croutons and endive
+- 
+  popup_category: Desserts
+  popup_title: Platter of Assorted Canapes (6 pieces)
+  popup_subtitle: >
+    Smoked Salmon, Parma Ham Goats Cheese
+    Mousse

@@ -1,0 +1,17 @@
+Title: Slider Photo 3
+
+----
+
+Description: 
+
+----
+
+Type: photo
+
+----
+
+Photo: slider3.jpg
+
+----
+
+Video: 

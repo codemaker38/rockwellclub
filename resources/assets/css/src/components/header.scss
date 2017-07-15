@@ -1,0 +1,55 @@
+.header {
+  &-login {
+    width: 100%;
+    padding: 7px 0;
+    background: #002502;
+
+    &__link {
+      display: block;
+      font-family: 'Yrsa', serif;
+      color: #efc359;
+      text-align: center;
+      @include view-screen(td) {
+        padding-right: 5px;
+        text-align: right;
+      }
+    }
+  }
+
+  &-logo {
+    display: block;
+    width: 240px;
+    margin: 40px auto;
+
+    &__img {
+      display: block;
+      width: inherit;
+    }
+  }
+
+  &-menu {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #757575;
+
+    &__item {
+      display: table-cell;
+      &:not(:last-of-type) {
+        padding-right: 40px;
+      }
+    }
+
+    &__link {
+      display: block;
+      padding: 15px 0;
+      font-size: 16px;
+      color: #005c04;
+
+      &:hover, &--active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

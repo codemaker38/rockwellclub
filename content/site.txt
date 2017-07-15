@@ -1,0 +1,41 @@
+Title: The Rockwell Club
+
+----
+
+Author: TRC Team
+
+----
+
+Description: 
+
+----
+
+Copyright: Copyright 2017 Mt. Grace Hospitals, Inc. All rights reserved.
+
+----
+
+Email: codemaker38@gmail.com
+
+----
+
+Phone: (632) 897-8310/(632) 798-1700
+
+----
+
+Fax: (632) 897-8372
+
+----
+
+Address: Amorsolo Square, #23 Amorsolo Drive, Rockwell Center, Makati, Philippines
+
+----
+
+Header-logo: logo.png
+
+----
+
+Footer-logo: footer-logo.png
+
+----
+
+Logo: logo.png

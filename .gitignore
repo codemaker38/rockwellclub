@@ -1,0 +1,33 @@
+# System files
+# ------------
+/resources/assets/node_modules/*
+/resources/documents/*
+/resources/psds/*
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/thumbs/*
+!/thumbs/index.html
+
+/site/cache/*
+!/site/cache/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Kirby accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Avatars
+# ---------------
+
+/assets/avatars/*
+!/assets/avatars/index.html

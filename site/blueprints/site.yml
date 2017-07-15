@@ -1,0 +1,43 @@
+title: Site
+
+pages:
+  template:
+    - default
+    - template1
+    - events
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+
+  email:
+    label: Email Address
+    type:  email
+
+  phone:
+    label: Phone Number
+    type:  text
+
+  fax:
+    label: Fax Number
+    type:  text
+
+  address:
+    label: Address
+    type:  textarea
+
+  description:
+    label: Description
+    type:  textarea
+
+  logo:
+    label: Logo
+    type:  selector
+    mode:  single
+    types: image
+    required: true

@@ -1,0 +1,71 @@
+/**
+ * Slider
+ */
+.slider {
+	position: relative;
+	width: 100%;
+	height: 360px;
+	@include bg-img;
+	@include view-screen(td) {
+		height: 500px;
+	}
+
+	&__item {
+		position: relative;
+		width: inherit;
+		height: inherit;
+	}
+
+	&__text {
+		position: absolute;
+		top: 50%;
+		right: 10%;
+		transform: translateY(-50%);
+	}
+
+	&__subtitle {
+		font-size: 16px;
+		color: #efc359;
+	}
+
+	&__title {
+		padding: 5px 0;
+		font-size: 36px;
+		color: #fff;
+		line-height: 1.2;
+
+		&:after {
+			display: block;
+			content: '';
+			width: 40px;
+			border-bottom: 5px solid #efc359;
+		}
+	}
+}
+
+/**
+ * Post Slider
+ */
+.post {
+	&-slider {
+		position: relative;
+
+		&__prev {
+			z-index: 2;
+			position: absolute;
+			top: 50%;
+			left: 20px;
+			transform: translateY(-50%);
+			cursor: pointer;
+		}
+
+		&__next {
+			z-index: 2;
+			position: absolute;
+			top: 50%;
+			right: 20px;
+			transform: translateY(-50%);
+			cursor: pointer;
+		}
+	}
+}

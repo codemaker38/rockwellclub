@@ -1,0 +1,40 @@
+$blue: #18a2af;
+$green: #c1d72f;
+$black: #000;
+$red: #f9423a;
+$light-blue: #65c2cd;
+$light-green: #dae782;
+$orange: #f99d1c;
+
+.--blue { color: $blue }
+.--green { color: $green }
+.--white { color: white }
+
+
+#password-meter.veryweak strong, #password-meter.weak strong {
+    color: #c40404;
+}
+#password-meter.medium strong {
+    color: gold;
+}
+#password-meter.good strong {
+    color: darkorange;
+}
+#password-meter.strong strong {
+    color: green;
+}
+#password-meter .form-help.red strong {
+    color: #c40404;
+}
+#password-meter .form-help.orange strong {
+    color: darkorange;
+}
+#password-meter .form-help.blue strong {
+    color: blue;
+}
+#password-meter .form-help.green strong {
+    color: green;
+}
+#password-meter .form-help.black strong {
+    color: #111;
+}

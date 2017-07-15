@@ -1,0 +1,21 @@
+Title: Photo Slider 2
+
+----
+
+Description: 
+
+----
+
+Type: photo
+
+----
+
+Photo: photo2.jpg
+
+----
+
+Video: 
+
+----
+
+Link: 

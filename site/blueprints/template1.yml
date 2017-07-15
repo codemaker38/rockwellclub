@@ -1,0 +1,35 @@
+title: Template 1
+pages: template1_item
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+
+  banner:
+    label: Footer Banner
+    type: headline
+
+  banner_photo:
+    label: Photo
+    type: selector
+
+  banner_title:
+    label: Title
+    type: text
+
+  banner_description:
+    label: Description
+    type: textarea
+
+  banner_btn:
+    label: Button
+    type: text
+
+  banner_link:
+    label: Link
+    type: url

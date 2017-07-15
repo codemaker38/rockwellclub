@@ -1,0 +1,38 @@
+title: Slider Item
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type: textarea
+
+  type:
+    label:  Type
+    type:   fieldtoggle
+    options:
+      photo:  Photo
+      video:  Video
+    show:
+      photo:  photo
+      video:  video
+    hide:
+      photo:  video
+      video:  photo
+  photo:
+    label: Photo
+    type:  selector
+    mode:  single
+    types: image
+    autoselect: first
+  video:
+    label: Video
+    type:  text
+    placeholder: Enter youtube url...
+
+  link:
+    label: Link
+    type: text

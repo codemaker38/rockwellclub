@@ -1,0 +1,15 @@
+title: Home
+pages:
+  template: slider
+  max: 1
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type: textarea
+    buttons:

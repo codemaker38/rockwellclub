@@ -1,0 +1,99 @@
+/**
+ * --------------------------------------
+ * HELPERS
+ * --------------------------------------
+ */
+
+@mixin background-color-transparent($color, $a) {
+    background-color: $color;
+    background-color: rgba($color, $a)
+}
+
+@mixin bp($point) {
+    @if $point == 'tablet' {
+        @media (min-width: $screen-sm-min) { @content; }
+    }
+    @else if $point == 'desktop' {
+        @media (min-width: $screen-md-min) { @content; }
+    }
+    @else if $point == 'large' {
+        @media (min-width: $screen-lg-min) { @content; }
+    }
+    @else if $point == 'xlarge' {
+        @media (min-width: $screen-xl-min) { @content; }
+    }
+}
+
+@mixin transition($property: transform, $duration: 1s) {
+    transition: $property $duration cubic-bezier(.5,.5,.5,.5) 0s;
+}
+
+@mixin hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.amp { font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif; font-style: italic; font-weight: normal; }
+.center-block { display: block; margin-left: auto; margin-right: auto; }
+.clearfix { @include clearfix; }
+.disabled { overflow-y: hidden; }
+.hide { display: none !important; }
+.hide-text { @include hide-text() }
+.img-full { width: 100%; }
+.img-responsive { display: block; max-width: 100%; height: auto; }
+.img-rounded { border-radius: 6px }
+.no-margin { margin: 0; }
+.pull-left { float: left !important; }
+.pull-right { float: right !important; }
+.relative { position: relative; }
+.spaced-out { letter-spacing: 1px; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-muted { color: #999; }
+.text-right { text-align: right; }
+
+/**
+ * View Screen for mobile and desktop
+ */
+@mixin view-screen($size) {
+    // mobile
+    @if $size == 'm' {
+        @media (max-width: $screen-tablet - 1) { @content; }
+    }
+
+    // mobile and tablet
+    @if $size == 'mt' {
+        @media (max-width: $screen-md-desktop - 1) { @content; }
+    }
+
+    // tablet
+    @if $size == 't' {
+        @media (min-width: $screen-tablet) and (max-width: $screen-md-desktop - 1) { @content; }
+    }
+
+    // tablet, dekstop, and larger screens
+    @if $size == 'td' {
+        @media (min-width: $screen-tablet) { @content; }
+    }
+
+    // desktop and larger screens
+    @if $size == 'd' {
+        @media (min-width: $screen-md-desktop) { @content; }
+    }
+}
+
+/**
+ * Custom Columns
+ */
+.col-md-half-offset {
+    @include view-screen(d) {
+        margin-left: 4.166666667%;
+    }
+}
+
+@mixin bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

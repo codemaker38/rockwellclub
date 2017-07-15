@@ -1,0 +1,58 @@
+/*!
+ * @project     Rockwell Club
+ * @version     1.0
+ * @author      Bryan Emmanuel Cobcoban
+ * @link        codemaker38@gmail.com
+ * @date        July 1, 2017
+ */
+
+@import 'core/normalize';
+@import 'core/grid';
+@import 'globals/helpers';
+@import 'globals/colors';
+@import 'globals/fonts';
+
+html {
+    background-color: transparent;
+    overflow-y: scroll;
+    font-size: 14px;
+}
+
+body {
+    position: relative;
+    color: #5e5e5e;
+    font-family: 'Lusitana', serif;
+    font-size: inherit;
+    line-height: 1.6;
+}
+
+a {
+    color: #002f03;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+.site-wrapper {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(black, .15);
+    margin: 0 auto;
+    max-width: 1500px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &.off {
+        box-shadow: none;
+        max-width: none;
+    }
+
+}
+
+// -------------------------------
+
+@import 'components/header';
+@import 'components/forms';
+@import 'components/content';
+@import 'components/slider';
+@import 'components/footer';

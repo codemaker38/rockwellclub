@@ -1,0 +1,47 @@
+title: Template 1 Item
+pages: slider
+preview: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+
+  details:
+    label: Details
+    type: Markdown
+
+  popup:
+    label: Pop-up Information
+    type: headline
+
+  popup_btn:
+    label: Button
+    type: text
+
+  popup_categories:
+    label: Categories
+    type: tags
+
+  popup_items:
+    label: Items
+    type: structure
+    style: table
+    fields:
+      popup_category:
+        label: Category
+        type: select
+        options: field
+        field:
+          name: popup_categories
+          separator: ,
+      popup_title:
+        label: Title
+        type: text
+      popup_subtitle:
+        label: Subtitle
+        type: text

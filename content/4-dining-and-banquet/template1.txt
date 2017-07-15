@@ -1,0 +1,29 @@
+Title: Dining & Banquet
+
+----
+
+Text: 
+
+----
+
+Description: 
+
+----
+
+Banner-photo: banner.jpg
+
+----
+
+Banner-title: Banquet
+
+----
+
+Banner-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis volutpat tincidunt. Nam tincidunt sapien quis sollicitudin scelerisque.
+
+----
+
+Banner-btn: VIEW BANQUETS
+
+----
+
+Banner-link: https://google.com

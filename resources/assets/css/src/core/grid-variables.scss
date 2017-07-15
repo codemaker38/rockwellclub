@@ -1,0 +1,52 @@
+/**
+ * MEDIA QUERIES BREAKPOINTS
+ */
+
+$screen-xs:                 480px !default;
+$screen-xs-min:             $screen-xs !default;
+$screen-phone:              $screen-xs-min !default;
+
+$screen-sm:                 768px !default;
+$screen-sm-min:             $screen-sm !default;
+$screen-tablet:             $screen-sm-min !default;
+
+$screen-md:                 992px !default;
+$screen-md-min:             $screen-md !default;
+$screen-md-desktop:         $screen-md-min !default;
+
+$screen-lg:                 1200px !default;
+$screen-lg-min:             $screen-lg !default;
+$screen-lg-desktop:         $screen-lg-min !default;
+
+$screen-xl:                 1350px !default;
+$screen-xl-min:             $screen-xl !default;
+$screen-xl-desktop:         $screen-xl-min !default;
+
+$screen-xs-max:             ($screen-sm-min - 1) !default;
+$screen-sm-max:             ($screen-md-min - 1) !default;
+$screen-md-max:             ($screen-lg-min - 1) !default;
+$screen-lg-max:             ($screen-xl-min - 1) !default;
+
+/**
+ * GRID SYSTEM
+ */
+
+$grid-columns:              12 !default;
+$grid-gutter-width:         30px !default;
+$grid-float-breakpoint:     $screen-sm-min !default;
+
+/**
+ * CONTAINER SIZES
+ */
+
+$container-tablet:          (720px + $grid-gutter-width) !default;
+$container-sm:              $container-tablet !default;
+
+$container-desktop:         (940px + $grid-gutter-width) !default;
+$container-md:              $container-desktop !default;
+
+$container-large-desktop:   (1140px + $grid-gutter-width) !default;
+$container-lg:              $container-large-desktop !default;
+
+$container-xlarge-desktop:  (1270px + $grid-gutter-width) !default;
+$container-xl:              $container-xlarge-desktop !default;
